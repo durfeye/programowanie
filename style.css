@@ -295,7 +295,7 @@ footer {
     transition-duration: 0.2s;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
     .logo {
         text-align: center;
         margin: 0;
@@ -312,6 +312,8 @@ footer {
         z-index: 1;
         align-items: flex-end;
         justify-content: center;
+        margin: 0;
+        padding: 0;
     }
     .menuContainer {
         display: none;
@@ -350,8 +352,11 @@ footer {
     .offerItemCover {
         max-width: 40vh;
     }
-    .offerMenu figure img {
+    .offerMenu img {
         max-width: 40vh;
+    }
+    .secondItem figure {
+        margin: 0;
     }
 }
 
