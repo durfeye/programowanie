@@ -25,7 +25,7 @@ header {
     color: rgb(186,134,0);
 }
 #menuTop {
-    font-size: 3vh;
+    font-size: 2.3vh;
 }
 .mainWindow {
     display: flex;
@@ -36,13 +36,13 @@ header {
 .mainContent {
     padding: 2vh;
     position: relative;
-    top: 9vh;
-    font-size: 3.5vh;
+    top: 14.5vh;
+    font-size: 3vh;
     text-align: center;
     color: white;
 }
 .mainTitle {
-    font-size: 6vh;
+    font-size: 5vh;
 }
 .mainButton{
     display: flex;
@@ -274,7 +274,7 @@ footer {
     color: white;
     transition-duration: 0.2s;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     .logo {
         text-align: center;
         margin: 0;

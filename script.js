@@ -3,7 +3,7 @@ const stickyMenuContainer = menuContainer.offsetTop;
 const mobileMenuBtn = document.querySelector('.mobileMenuBtn');
 
 function stickyNavbar() {
-    if (document.documentElement.clientWidth > 900) {
+    if (document.documentElement.clientWidth > 1000) {
         if(window.pageYOffset >= stickyMenuContainer) {
             menuContainer.classList.add('stickyMenuContainer')
         }
