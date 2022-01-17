@@ -307,20 +307,24 @@ footer {
     #menuContainer {
         position: fixed;
         bottom: 0;
+        left: 0;
+        right: 0;
         z-index: 1;
-        max-height: 30vh;
-        width: 100%;
         align-items: flex-end;
+        justify-content: center;
     }
     .menuContainer {
         display: none;
-        height: 32vh;
+        min-height: 32vh;
         flex-direction: column;
         margin-top: -30vh;
         border: 0;
         align-items: flex-end;
         gap: 3vh;
         border-top: 1px solid rgb(186, 134, 0);
+    }
+    .menuContainer li {
+        font-size: 2vh;
     }
     .mobileMenuBtn {
         position: absolute;
