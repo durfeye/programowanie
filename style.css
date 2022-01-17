@@ -104,6 +104,9 @@ li {
 }
 #menuContainer {
     height: 10vh;
+    background: #1A1A1A;
+    margin: 0;
+    border-bottom: 2px solid rgb(186,134,0);
 }
 .menuContainer {
     display: flex;
@@ -248,7 +251,7 @@ li {
 }
 footer {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     height: 30vh;
     background: rgb(24,24,24);
     flex-shrink: 0;
@@ -256,6 +259,7 @@ footer {
     align-items: center;
     color: white;
     flex-direction: column;
+
 }
 .menuFooter {
     display: flex;
@@ -264,17 +268,54 @@ footer {
 }
 .menuFooter li a {
     color: rgb(186,134,0);
+    font-size: 1.5vh;
 }
 .menuFooter li a:hover {
     color: white;
     transition-duration: 0.2s;
 }
-@media only screen and (max-width: 600px) {
-  #menuContainer {
-    display: none;
+@media only screen and (max-width: 900px) {
+    .logo {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    #menuTop {
+        display: none;
+    }
+    #menuContainer {
+        position: fixed;
+    bottom: 0;
+    z-index: 1;
+    max-height: 30vh;
+    width: 100%;
+    align-items: flex-end;
+    }
+    .menuContainer {
+        display: none;
+        height: 32vh;
+        flex-direction: column;
+        margin-top: -30vh;
+        border: 0;
+        align-items: flex-end;
+        gap: 3vh;
+        border-top: 1px solid rgb(186,134,0);
+    }
+    .mobileMenuBtn {
+        position: absolute;
+        right: 2vh;
+        bottom: 1.5vh;
+        font-size: 5vh;
+        background: rgb(186,134,0);
+        color:white;
+        border: 0;
+    }
+  .stickyMenuContainer {
+      display: none;
   }
   .mainButton {
-      animation: none
+      animation: none;
+      margin-bottom: 12vh;
   }
   .offerMenu div:first-child, .offerMenu div:last-child{
     max-width: 40vh;
