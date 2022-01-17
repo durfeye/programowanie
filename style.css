@@ -167,7 +167,7 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 50vh;
     gap: 5vh;
     padding: 2vh 5vh 5vh 5vh;
     text-align: center;
@@ -179,10 +179,10 @@ li {
     max-width: 100vh;
 }
 .commit .commitContent h1 {
-    font-size: 5vh;
+    font-size: 4vh;
 }
 .commit .commitContent p {
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 #whyUs {
     display: flex;
@@ -206,7 +206,7 @@ li {
     color: white;
 }
 .whyUs .whyUsItem i {
-    font-size: 10vh;
+    font-size: 7.5vh;
     padding-bottom: 1vh;
 }
 .offerMenu {
@@ -224,7 +224,7 @@ li {
     width: 50vh;
     height: 38vh;
     color: white;
-    font-size: 10vh;
+    font-size: 6vh;
     align-items: center;
     background: rgba(24,24,24,0.5);
 }
@@ -259,7 +259,6 @@ footer {
     align-items: center;
     color: white;
     flex-direction: column;
-
 }
 .menuFooter {
     display: flex;
@@ -268,7 +267,7 @@ footer {
 }
 .menuFooter li a {
     color: rgb(186,134,0);
-    font-size: 1.5vh;
+    font-size: 2vh;
 }
 .menuFooter li a:hover {
     color: white;
